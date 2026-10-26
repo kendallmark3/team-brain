@@ -1,0 +1,8 @@
+# Paths where an edit goes to a human for approval before Claude makes it.
+# One shell glob per line, matched against the path relative to the repo root. '*' also crosses '/'.
+# For this repo: the files that run on every user's machine or define what every user gets.
+hooks/*.sh
+hooks/hooks.json
+.claude-plugin/*
+scripts/init.sh
+.github/workflows/*

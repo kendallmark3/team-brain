@@ -1,0 +1,12 @@
+name: Team brain
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  brain-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the team brain
+        run: bash brain/check.sh

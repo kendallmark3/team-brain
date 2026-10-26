@@ -1,0 +1,14 @@
+{
+  "name": "team-brain",
+  "owner": {
+    "name": "Mark Kendall"
+  },
+  "description": "TeamBrain for Claude Code: a shared, versioned team brain for any repository.",
+  "plugins": [
+    {
+      "name": "team-brain",
+      "source": "./",
+      "description": "Shared intent, constraints, decisions and lessons in git; loaded every session; sensitive paths and destructive commands go to a human."
+    }
+  ]
+}
