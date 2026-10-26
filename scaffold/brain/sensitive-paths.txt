@@ -1,0 +1,12 @@
+# Paths where an edit goes to a human for approval before Claude makes it.
+# One shell glob per line, matched against the path relative to the repo root. '*' also crosses '/'.
+# Keep this to the places where a wrong change is expensive: auth, money, data, secrets, infrastructure.
+*auth/*
+*/auth.*
+*payment*
+*billing*
+*migrations/*
+*.env
+*.env.*
+*secrets*
+.github/workflows/*
